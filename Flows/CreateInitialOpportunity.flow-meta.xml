@@ -108,12 +108,6 @@
             </value>
         </inputAssignments>
         <inputAssignments>
-            <field>CurrencyIsoCode</field>
-            <value>
-                <elementReference>Get_Account_Info.CurrencyIsoCode</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
             <field>Name</field>
             <value>
                 <elementReference>opportunityName</elementReference>
@@ -153,6 +147,7 @@
         <queriedFields>BillingAddress</queriedFields>
         <queriedFields>ShippingAddress</queriedFields>
         <queriedFields>Type</queriedFields>
+        <queriedFields>CurrencyIsoCode</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <start>
